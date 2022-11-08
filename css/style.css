@@ -56,7 +56,7 @@ a{
 }
 
 /*Mobile*/
-@media only screen and (max-width: 768px) and (min-width: 360px) {
+@media only screen and (max-width: 767px) and (min-width: 360px) {
 
 #myBtn{
     padding: 6px;
