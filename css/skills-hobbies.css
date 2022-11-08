@@ -61,8 +61,23 @@ section.skills, section.hobbies{
     
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media only screen and (max-width: 768px) and (min-width: 360px) {
 
+.skills__title, .hobbies__title{        
+    font-size: 17px;        
+}
 
+.skills__box, .hobbies__box{        
+    width: 100px;
+    height: 85px;    
+}
+
+.skills__name, .hobbies__name{
+    font-size: 12px;
+}
+
+.fa-3x {
+    font-size: 2em;
+}
 
 }

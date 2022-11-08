@@ -56,14 +56,14 @@ a{
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media only screen and (max-width: 768px) and (min-width: 360px) {
 
-body{
-    width: 100%;
+
+#myBtn{
+    padding: 6px;
+    font-size: 11px;
+    
 }
 
-.tudo{
-    width: 100%;
 }
 
-}

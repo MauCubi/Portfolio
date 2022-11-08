@@ -152,8 +152,47 @@ section.experience{
     
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media only screen and (max-width: 768px) and (min-width: 360px) {
 
+.experience__section__title{
+    font-size: 17px;
+}
 
+.experience__box{
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.experience__info{
+    justify-content: flex-start;
+}
+
+.experience__img{
+    width: 296px;
+    height: 144px;
+}
+
+.img__izq, .img__der{
+    order: 0;
+}
+
+.experience__title{
+    font-size: 16px;    
+}
+
+.experience__text{
+    font-size: 12px;    
+}
+
+.demoBtn {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.repoBtn {
+    font-size: 12px;
+    padding: 5px 10px;
+}
 
 }

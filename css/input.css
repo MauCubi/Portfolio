@@ -121,3 +121,30 @@
 
         
 }
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) and (min-width: 360px) {
+
+.formcontacto__input{
+
+    font-size: 10px;
+    /* width: 92%;        */
+    
+}
+
+.input-label{
+    font-size: 10px;
+}
+
+.input-message-error {    
+    font-size: 10px;  
+}
+
+
+.formcontacto__input:not(:placeholder-shown) + .input-label,
+.formcontacto__input:focus + .input-label {
+    font-size: 0.5rem;    
+}
+
+}

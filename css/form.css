@@ -147,9 +147,42 @@ section.formcontacto{
     
 
 /*Mobile*/
-@media only screen and (max-width: 768px) and (min-width: 425px) {
-    .formcontacto__img{
-        display: none;
-    }
+@media only screen and (max-width: 768px) and (min-width: 360px) {
 
+
+.formcontacto{
+    width: 100%;
+    
+}
+
+.formcontacto__text{
+    width: 100%;         
+}
+
+.formcontacto__img{
+    display: none;
+}
+
+.formcontacto__title{    
+    font-size: 17px;
+}
+
+.formcontacto__subtext{    
+    font-size: 10px;
+    text-align: start;
+}
+
+.formcontacto__boton{
+    font-size: 10;
+    padding: 7px 10px;
+}
+
+.formcontacto__form{ 
+    width: 100%;   
+}
+
+.formcontacto__contacto{
+    gap: 0;
+    width: 75%;
+}
 }

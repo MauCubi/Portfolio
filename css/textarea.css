@@ -107,3 +107,26 @@
 
         
 }
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) and (min-width: 360px) {
+
+.textarea {    
+    font-size: 10px;    
+}
+
+.textarea-message-error {    
+    font-size: 10px;  
+}
+
+.textarea-label{
+    font-size: 11px;
+}
+
+.textarea:not(:placeholder-shown) + .textarea-label,
+.textarea:focus + .textarea-label {
+    font-size: 0.5rem;    
+}
+    
+}

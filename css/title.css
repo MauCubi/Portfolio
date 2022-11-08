@@ -109,11 +109,51 @@
     
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media only screen and (max-width: 768px) and (min-width: 360px) {
 
-    /* .title{       
-        width: 100%;       
-    } */
+.title__div{
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    padding: 5% 5%;
+}
 
+.title__container{
+    width: 100%;   
+    height: auto;
+    align-items: center;
+}
+
+.title__profile{
+    width: 98px;
+    height: 98px;
+    order: 0;
+}
+
+.title__bio{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.title__subsection{
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.title__network{
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+    width: 80%;
+}
+
+.title__network__item, .title__network__item a{    
+    font-weight: 400;
+    font-size: 9px;
+    color: var(--cor-de-letra);
+}   
 
 }
