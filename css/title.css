@@ -1,0 +1,57 @@
+.title__div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+
+.title__profile{
+    width: 340px;
+    height: 340px;    
+    order: 1;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-family: 'Open Sans', serif;
+    color: var(--cor-de-letra);
+    height: 275px;
+    width: 55%;
+}
+
+.title__bio{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.title__subsection{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;        
+    padding-inline-start: 0;   
+    justify-content: center;
+    justify-content: space-around;  
+    
+}
+
+.title__network__item, .title__network__item a{    
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--cor-de-letra);
+}
+
+
+
+
+.title__network__item a:hover{    
+    color: rgb(72, 140, 218);
+    
+}

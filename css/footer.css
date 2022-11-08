@@ -1,0 +1,11 @@
+section.footer{
+    display: flex;
+    font-size: 15px;    
+    justify-content: center;        
+    align-items: center;
+    background: #000;
+    color: #cecece;
+    font-family: 'Open Sans', serif;
+    font-weight: 500;
+    height: 60px;
+}

@@ -4,6 +4,7 @@ section.formcontacto{
     align-items: center;    
     gap: 10px;    
     background-color: var(--cor-de-fundo2);
+    padding-bottom: 23px;
     
 }
 
