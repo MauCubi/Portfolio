@@ -41,3 +41,41 @@ section.academic{
     width: 192px;
     height: 100px;
 }
+
+
+/*Tablet*/
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+    .academic__title{
+        font-size: 22px;
+    }
+
+    .academic__courses__box{        
+        width: 215px;
+        height: 200px;
+    }
+    
+
+    .academic__courses__box ul li img{
+        width: 162px;
+        height: 70px;
+    }
+
+    .academic__courses__item__title h4{
+        margin: 10px 0;
+    }
+
+    .academic__courses__item__subtitle p{
+        margin: 7px 0;
+    }
+
+    
+}
+    
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+
+
+}

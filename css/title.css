@@ -55,3 +55,65 @@
     color: rgb(72, 140, 218);
     
 }
+
+
+/*Tablet*/
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+
+.title__div{
+    gap: 32px;
+    align-items: center;
+    padding: 5% 5%;
+}
+
+.title__container{
+    width: 70%;   
+    height: auto;
+    align-items: center;
+}
+
+.title__profile{
+    width: 170px;
+    height: 170px;
+    order: 1;
+}
+
+.title__bio{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title__subsection{
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.title__network{
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0;
+    gap: 20px;
+    width: 55%;
+}
+
+.title__network__item, .title__network__item a{    
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--cor-de-letra);
+}   
+
+}
+    
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+    /* .title{       
+        width: 100%;       
+    } */
+
+
+}

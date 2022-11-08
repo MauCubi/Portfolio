@@ -9,3 +9,20 @@ section.footer{
     font-weight: 500;
     height: 60px;
 }
+
+
+/*Tablet*/
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+    section.footer{
+        font-size: 13px;
+    }
+        
+}
+    
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+
+
+}

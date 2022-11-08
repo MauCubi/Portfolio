@@ -2,13 +2,19 @@ section.menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
     padding: 15px 5%;    
     background: #000;
     color: var(--cor-de-fundo);
     color: #cecece;
     font-family: 'Open Sans', serif;
     font-weight: 300;
+    
+    
+}
+
+.menu__list__item__contato{
+    display: none;
 }
 
 .menu__header{
@@ -43,52 +49,69 @@ section.menu{
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
 
 
     section.menu{        
-        font-weight: 300;
-        width: 95%;
-        
+        padding: 16px 32px;
+        gap: 10px;
     }
-    
-    .menu__header{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 0px;
-        gap: 8px;
+
+    .menu__title{
+        font-size: 10px;
     }
-    
-    
-    .menu__list{
-        display: flex;
-        justify-content: space-between;
-        gap: 32px;    
+
+    .menu__list__item__contato{
+        display: block;
     }
-    
-    .menu__list__item a{
+
+    .menu__list__item__contato a{        
         color: #cecece;
         font-style: normal;    
         font-family: 'Open Sans', serif;
-    }
-    
-    .menu__list__item a:hover{
-        text-decoration: underline;
-        
-    }
-    
-    #menu__list__contacto {
         font-weight: 550;
     }
 
+    .menu__list{
+        display: none;
+    }
     
+
 }
     
 
+
+
 /*Mobile*/
-@media (min-width: 425px) {
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+
+    section.menu{       
+        
+        padding: 16px 32px;
+        gap: 10px;
+    }
+
+    .menu__list__item__contato{
+        display: block;
+        margin: 5px 0;
+    }
+
+    .menu__list__item__contato a{        
+        color: #cecece;
+        font-style: normal;    
+        font-family: 'Open Sans', serif;
+        font-weight: 550;
+        font-size: 14px;
+    }
 
 
+    .menu__list{
+        display: none;
+    }
+
+    .menu__title{
+        font-size: 14px;
+        margin: 5px 0;
+    }
 
 }

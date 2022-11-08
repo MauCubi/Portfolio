@@ -93,3 +93,31 @@
     display: block;    
     padding-left: 0.25rem;
 }
+
+
+
+/*Tablet*/
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+.formcontacto__input{
+    
+    font-size: 12px;       
+    
+}
+
+.input-label{
+    font-size: 13px;
+}
+
+.input-message-error {    
+    font-size: 12px;  
+}
+
+
+.formcontacto__input:not(:placeholder-shown) + .input-label,
+.formcontacto__input:focus + .input-label {
+    font-size: 0.6rem;    
+}
+
+        
+}
