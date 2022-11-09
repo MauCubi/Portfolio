@@ -11,7 +11,7 @@ section.about{
     font-family: 'Open Sans', serif;
     font-style: normal;
     color: var(--cor-de-letra);
-    width: 75%;
+    width: 100%;
 }
 
 .about__title{
